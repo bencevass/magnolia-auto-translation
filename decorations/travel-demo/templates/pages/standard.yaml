@@ -1,0 +1,5 @@
+areas:
+  main:
+    availableComponents:
+      textImageAutoTranslate:
+        id: auto-translation:components/textImageAutoTranslate

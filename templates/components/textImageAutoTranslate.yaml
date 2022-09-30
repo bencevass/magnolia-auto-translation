@@ -1,0 +1,4 @@
+templateScript: /auto-translation/templates/components/textImageAutoTranslate.ftl
+dialog: auto-translation:components/textImageAutoTranslate
+
+renderType: freemarker

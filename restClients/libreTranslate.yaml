@@ -1,0 +1,21 @@
+#baseUrl: https://libretranslate.com
+baseUrl: http://localhost:5000
+restCalls:
+  languages:
+    method: get
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /languages
+    responseContentType: application/json
+  translate:
+    method: post
+    entityClass: com.fasterxml.jackson.databind.JsonNode
+    path: /translate
+    responseContentType: application/json
+    headers:
+      Content-Type: "application/json; charset=UTF-8"
+    #queryParameters: {"q": "{q}", "source": "{source}", "target": "{target}", "format": "{format}", "api_key": "{api_key}"}
+    body: '{"q": "{q}", "source": "{source}", "target": "{target}", "format": "{format}", "api_key": "{api_key}"}'
+    defaultValues:
+      api_key: ""
+      format: text
+      source: en
