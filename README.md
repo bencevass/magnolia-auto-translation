@@ -13,3 +13,9 @@ The translation service (LibreTranslate) has to be hosted locally. Please refer 
 # How to use the integration
 When everything is up and running, a new textImageAutoTranslate will be available in the main area of the standard page template.
 Each textImageAutoTranslate will have its headline and text automatically translated, when the page is viewed in any other language than the default (and if the chosen language is supported by LibreTranslate).
+
+Create a component
+![Alt text](/../main/component-english.png?raw=true "Manually entered text in original language")
+
+When switching language, headline and text are automatically translated
+![Alt text](/../main/component-german-translated.png?raw=true "Automatically translated")
